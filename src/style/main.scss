@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'payback';
+    src: url('./font-family/payback.otf');
+}
+@import './global';
+@import './button';
+@import './form';
+@import './cards';
+@import './timer';
+@import './score';
+@import './wireframe';

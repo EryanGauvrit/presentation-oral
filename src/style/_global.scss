@@ -1,0 +1,25 @@
+// Variables
+
+$bgcolor: #09002E;
+$colorPrimary: #180661;
+
+html {
+    font-family: sans-serif;
+    background-color: $bgcolor;
+    color: white;
+}
+
+h1, h2{
+    font-family: 'payback', sans-serif;
+    letter-spacing: .5rem;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    img {
+        width: 175px;
+        height: 175px;
+        object-fit: contain;
+    }
+}
