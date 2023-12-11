@@ -1,62 +1,44 @@
 [
     {
         "id": 1,
-        "isBonus" : true,
-        "content": "Advance one level and receive an extra wireframe segment (example: banner) for free!"
+        "title" : "Passion trail",
+        "content": "Pratique en compétition (addiction ?)",
+        "img": "https://drive.google.com/uc?id=1qj9m6n2Nqe83j598L1a6-6-O5ZwYdvZM"
     },
     {
         "id": 2,
-        "isBonus" : true,
-        "content": "Choose an opponent and pick an orange card: If both answer the question correctly, you move up two levels collectively."
+        "title" : "Passion ski",
+        "content": "En hiver c'est SKI !",
+        "img": "https://drive.google.com/uc?id=1qj9m6n2Nqe83j598L1a6-6-O5ZwYdvZM"
     },
     {
         "id": 3,
-        "isBonus" : true,
-        "content": "Pitch a great idea for Giovanni’s website, if everyone loves it you advance one level and receive an extra wireframe segment (of your choice) "
+        "title" : "Expériences",
+        "content": "3ans au 27e BCA, vendeur rayon technique chez Ekosport",
+        "img": "https://drive.google.com/uc?id=10BuRh4n_RXBwyJKdlT7XMuH1azg_2ktD"
     },
     {
         "id": 4,
-        "isBonus" : true,
-        "content": "You get 30 extra seconds to answer questions on your next turn."
+        "title" : "Période scolaire",
+        "content": "reconversion en 2022 dans le web",
+        "img": "https://drive.google.com/uc?id=1g9uI_Ldq59S3KAT3x8lS_4W4VMrm_cz7"
     },
     {
         "id": 5,
-        "isBonus" : true,
-        "content": "Skip the next question and advance one square. Use this card strategically for challenging questions (a joker)."
+        "title" : "Entreprise actuelle",
+        "content": "SALOMON, the best !",
+        "img": "https://drive.google.com/uc?id=14qok5TQ2N-KYoIKmG5ZVn6o13JnRo8Fp"
     },
     {
         "id": 6,
-        "isBonus" : false,
-        "content": "Go back two levels due to a simulated coding issue affecting the implementation of the wireframe."
+        "title" : "Objectif court terme",
+        "content": "CDI / performance course à pied, trail",
+        "img": ""
     },
     {
         "id": 7,
-        "isBonus" : false,
-        "content": "Swap a wireframe section with an opponent that THEY get to choose, not you."
-    },
-    {
-        "id": 8,
-        "isBonus" : false,
-        "content": "We’re sorry! You’ll have only 30 seconds on your next turn."
-    },
-    {
-        "id": 9,
-        "isBonus" : false,
-        "content": "Go back two squares due to a technical issue."
-    },
-    {
-        "id": 10,
-        "isBonus" : false,
-        "content": "Giovanni requests a major design change. Swap a wireframe section with an opponent. Hey! You don’t get to choose the card! ⛔It’s your opponent’s decision."
-    },
-    {
-        "id": 11,
-        "isBonus" : false,
-        "content": "Go back one level and lose a wireframe segment due to a design flaw. Blame it on the devs! 🤷‍♂️"
-    },
-    {
-        "id": 12,
-        "isBonus" : false,
-        "content": "Choose an opponent and pick an orange card. If either answers the question incorrectly, both teams go back one level."
+        "title" : "Objectif long terme",
+        "content": "Gagner plus de temps pour la pratique de mes passions (freelance ? CDI télétravail ?)",
+        "img": "https://drive.google.com/uc?id=1jI_hCvhf0C5HTLNlTigkBMJM9D5OhR_N"
     }
 ]

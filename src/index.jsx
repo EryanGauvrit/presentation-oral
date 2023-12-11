@@ -6,7 +6,6 @@ import './style/normalize.css';
 import './style/main.scss';
 import { Header } from './components/Header';
 import { ErrorComp } from './components/ErrorComp';
-import { StartGame } from './components/StartGame';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -14,9 +13,6 @@ root.render(
     <BrowserRouter>
       <Header />
       <Routes>
-        {/* <Route exact path='/'
-            element={<StartGame />}
-        /> */}
         <Route exact path='/'
             element={<App />}
         />

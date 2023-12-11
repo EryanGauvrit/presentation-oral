@@ -5,12 +5,12 @@
     align-items: center;
     & .deck {
         cursor: pointer;
-        width: 310px;
-        height: 210px;
+        width: 510px;
+        height: 390px;
         position: relative;
         & .back-card {
-            width: 300px;
-            height: 200px;
+            width: 500px;
+            height: 380px;
             background-image: url('../assets/card-verso.png');
             background-size: cover;
             background-position: center;
@@ -30,22 +30,22 @@
             z-index: 11;
         }
         :nth-child(2) {
-            top: -210px;
+            top: -380px;
             right: -5px;
             z-index: 10;
         }
         :nth-child(3) {
-            top: -420px;
+            top: -760px;
             right: -10px;
             z-index: 9;
         }
         :nth-child(4) {
-            top: -630px;
+            top: -1140px;
             right: -15px;
             z-index: 8;
         }
         :nth-child(5) {
-            top: -840px;
+            top: -1520px;
             right: -20px;
             z-index: 7;
         }
@@ -59,19 +59,19 @@
     width: 100%;
     height: 100vh;
     display: flex;
-    flex-direction: column;
+    justify-content: center;
     align-items: center;
+    gap: 3rem;
     .card {
-        margin-top: 10rem;
-        width: 350px;
-        height: 250px;
+        width: 500px;
+        height: 380px;
         border-radius:  30px;
         box-shadow: 1px -1px 2px white;
         overflow: hidden;
         .showCard {
             background-image: url('../assets/card-recto.png');
             background-position: center;
-            background-size: contain;
+            background-size: cover;
             background-repeat: no-repeat;
             display: flex;
             flex-direction: column;
@@ -85,34 +85,30 @@
                 flex-direction: column;
                 justify-content: center;
                 align-items: center;
-                gap: 1rem;
+                gap: 2rem;
+                width: 80%;
+                margin: auto;
+                margin-top: 1rem;
                 & h1 {
                 font-family: 'payback', sans-serif;
                 color:  white;
                 font-size: 2rem;
                 letter-spacing: .5rem;
-                margin: 1rem;
+                text-transform: uppercase;
                 }
                 & p {
                     color:  white;
-                    font-size: 1.1rem;
-                    width: 85%;
+                    font-size: 1.5rem;
                     margin: 0;
                 }
             }
         }
     }
-    .button-list-teams {
-        display: flex;
-        gap: 1rem;
-        max-width: 320px;
-        flex-wrap: wrap;
-        justify-content: center;
-        margin-top: -10px;
-        button {
-            padding: .5rem 1rem;
-            background-color: green;
-        }
+    img {
+        height: 350px;
+        object-fit: contain;
+        object-position: center;
+        background-color: rgba($color: white, $alpha: .7);
     }
 }
 
