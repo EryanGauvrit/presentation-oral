@@ -6,7 +6,7 @@ function App() {
   const [openCard, setOpenCard] = useState(false);
   const [cardContent, setCardContent] = useState({});
   const [data] = useState(surprises);
-  const [count, setCount] = useState(1);
+  const [count, setCount] = useState(0);
   const [end, setEnd] = useState(false);
 
   const handleClick = () => {
