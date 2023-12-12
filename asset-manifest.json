@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.3b6b6300.css",
-    "main.js": "/static/js/main.35053178.js",
+    "main.js": "/static/js/main.eaaac331.js",
     "static/media/card-recto.png": "/static/media/card-recto.5f32b50f8e9f6c217030.png",
     "static/media/card-verso.png": "/static/media/card-verso.5ffbea68c621ca177190.png",
     "static/media/logo.png": "/static/media/logo.6e4c411803aabbc9c5fb.png",
     "static/media/payback.otf": "/static/media/payback.89f6b97d67602a2b79ff.otf",
     "index.html": "/index.html",
     "main.3b6b6300.css.map": "/static/css/main.3b6b6300.css.map",
-    "main.35053178.js.map": "/static/js/main.35053178.js.map"
+    "main.eaaac331.js.map": "/static/js/main.eaaac331.js.map"
   },
   "entrypoints": [
     "static/css/main.3b6b6300.css",
-    "static/js/main.35053178.js"
+    "static/js/main.eaaac331.js"
   ]
 }
